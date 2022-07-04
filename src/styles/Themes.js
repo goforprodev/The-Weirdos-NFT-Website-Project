@@ -10,13 +10,13 @@ export const light = {
 
     carouselColor:"#eeedde",
 
-    fontxs:"0.75rem",
-    fontsm:"0.875rem",
-    fontmd:"1rem",
-    fontlg:"1.125rem",
-    fontxl:"1.25rem",
-    fontxxl:"1.5rem",
-    fontxxxl:"2rem",
+    fontxs:"0.75em",
+    fontsm:"0.875em",
+    fontmd:"1em",
+    fontlg:"1.25em",
+    fontxl:"2em",
+    fontxxl:"3em",
+    fontxxxl:"4em",
 
     fontButton:"0.875em",
 
