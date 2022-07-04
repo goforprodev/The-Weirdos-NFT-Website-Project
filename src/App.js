@@ -1,9 +1,15 @@
+import { ThemeProvider } from "styled-components";
+import GlobalStyles from "./styles/GlobalStyles";
+import {dark, light} from "./styles/Themes";
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <GlobalStyles/>
+    <ThemeProvider theme={dark}>
       The weridos nft project
-    </div>
+    </ThemeProvider>
+    </>
   );
 }
 
