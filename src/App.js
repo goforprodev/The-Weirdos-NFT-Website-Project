@@ -1,6 +1,7 @@
+import React from "react";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./styles/GlobalStyles";
-import { light } from "./styles/Themes";
+import { dark, light } from "./styles/Themes";
 
 // Components and sections
 import Navigation from "./components/Navigation";
@@ -13,11 +14,14 @@ import Faq from "./components/sections/Faq";
 import Footer from "./components/Footer";
 
 function App() {
+  const [theme, settheme] = React.useState(light);
   return (
     <>
       <GlobalStyles />
-      <ThemeProvider theme={light}>
+      <ThemeProvider theme={theme}>
         <Navigation />
+        {/* <button onClick={() => settheme(theme === light ? dark : light)}>{theme === light ? 'dark' : "light"}</button> */}
+        {/* <button onClick={settheme(dark)}>dark</button> */}
         <Home />
         <About />
         <Roadmap />

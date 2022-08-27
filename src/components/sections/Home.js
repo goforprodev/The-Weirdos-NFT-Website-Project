@@ -1,19 +1,19 @@
 import React from "react";
 import styled from "styled-components";
+import CoverVideo from "../CoverVideo";
 import TypewriterText from "../TypewriterText";
 
 const Section = styled.section`
   min-height: ${(props) => `calc(100vh - ${props.theme.navHeight})`};
   width: 100vw;
   position: relative;
-  background-color: ${(props) => props.theme.text};
+  background-color: ${(props) => props.theme.body};
 `;
 
 const Container = styled.div`
   width: 75%;
   height: 80vh;
   margin: 0 auto;
-  background: red;
 
   display: flex;
   justify-content: center;
@@ -36,7 +36,7 @@ const Home = () => {
           <TypewriterText />
         </Box>
         <Box>
-          <h1>Videos</h1>
+          <CoverVideo />
         </Box>
       </Container>
     </Section>
