@@ -44,8 +44,8 @@ const Round = styled.div`
   width: 6rem;
   height: 6rem;
   border: 1px solid ${(props) => props.theme.text};
-  border-radius:50%;
-  
+  border-radius: 50%;
+
   img {
     width: 100%;
     height: auto;
