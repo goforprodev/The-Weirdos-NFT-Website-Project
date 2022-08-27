@@ -19,7 +19,7 @@ Wrap Btn inside Link component like below for the link to work.
 ![HOME](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home%20-%20Desktop.png)
 ![ABOUT](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home-2%20-%20Desktop.png)
 ![HOME](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home-1%20-%20Mobile.png)
-![MENU](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home-2-%20Mobile.png)
+![MENU](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home-2t-%20Mobile.png)
 
 ### Resources Used in This Project
 

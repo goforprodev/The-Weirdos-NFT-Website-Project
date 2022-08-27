@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./styles/GlobalStyles";
-import { dark, light } from "./styles/Themes";
+import { light } from "./styles/Themes";
 
 // Components and sections
 import Navigation from "./components/Navigation";
